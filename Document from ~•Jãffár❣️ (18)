@@ -1,0 +1,8 @@
+
+math_marks = int(input("Enter your math marks: "))
+science_marks = int(input("Enter your science marks: "))
+temp = math_marks
+math_marks = science_marks
+science_marks = temp
+print("math marks =", math_marks)
+print("science marks =", science_marks)

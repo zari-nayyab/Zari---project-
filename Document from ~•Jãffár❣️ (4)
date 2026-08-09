@@ -1,0 +1,7 @@
+previous_reading = int(input("Enter previous reading: "))
+current_reading = int(input("Enter current reading: "))
+rate_per_unit = float(input("Enter rate per unit: "))
+units = current_reading - previous_reading
+bill = units * rate_per_unit
+print("Units consumed:", units)
+print("Total bill:", round(bill, 2), "Rs")

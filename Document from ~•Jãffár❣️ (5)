@@ -1,0 +1,4 @@
+mass_of_solute = float(input("Enter mass of solute in grams: "))
+volume_of_solution = float(input("Enter volume in liters: "))
+concentration = mass_of_solute / volume_of_solution
+print("Concentration:", round(concentration, 2), "g/L")
